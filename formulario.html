@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matricula SENAC</title>
+
+</head>
+<body>
+    
+    <h1>MATRICULA ESCOLAR SENAC 2022.2</h1>
+    <fieldset> 
+    <form action="https://formspree.io/f/mzbwzwzl" method="post">
+   <ol>
+    <li>Nome</li>
+    <input type="text" required placeholder="Nome completo">
+   
+    <li>Sexo</li>
+    <input type="radio" required id="sexo-m" name="sexo" value="sexo"> <label for="sexo-m">Masculino</label>
+    <input type="radio" id="sexo-f" name="sexo" value="sexo">
+    <label for="sexo-f">Feminino</label>
+    
+    <li>Raca</li>
+   <select name="Raca" id="raca">
+    <option value="Branca">Branca</option>
+    <option value="Negra">Negra</option>
+    <option value="Parda">Parda</option>
+    <option value="Amarela">Amarela</option>
+    <option value="Indigena">Indigena</option>
+   </select>
+    
+   <li>CPF</li>
+   <input placeholder="Seu CPF" type="number" required nome="CPF"> <br>
+    
+   <li>Data de Nascimento</li>
+   <input type="date" nome="Data de Nascimento"> <br>
+   
+   <li>Filiacao</li>
+   <input placeholder="nome dos pais" type="text" required size="60" name="Filiacao"><br>
+   
+   <li>Endereco</li>
+   <input placeholder="rua, numero" type="text" required name="Rua">
+   <input placeholder="bairro" type="text" required name="Bairro">
+   <input placeholder="Cidade" type="text" value="Paulista" required name="Cidade">
+   
+   <li>Estado</li>
+   <select name="Estado" id="estado">
+    <option value="PE">PE</option>
+    <option value="AL">AL</option>
+    <option value="PB">PB</option>
+    <option value="RN">RN</option>
+   </select>
+
+    <li>CEP</li>
+    <input placeholder="cep" type="number" name="CEP">
+    <input placeholder="Ponto de referencia" type="text" size="60" name="Ponto de referencia"> <br>
+   
+    <li>Telefone</li>
+    <input type="tel" name="Telefone" pottern="" placeholder=""> <br>
+   
+    <li>Email</li>
+    <input type="email" name="Email"> <br>
+
+    <li>Curso Selecionado</li>
+    <select name="Curso" id="Curso">
+        <option value="Java">Java</option>
+        <option value="HTML">HTML</option>
+        <option value="JS">Java Script</option>
+        <option value="Python">Python</option>
+
+    </select> <br>
+
+    <li>Esportes que quer participar</li>
+    <input type="checkbox" name="judo" id="judo">judo
+    <input type="checkbox" name="Danca" id="Danca">Danca
+    <input type="checkbox" name="Futsal" id="Futsal">Futsal
+    <input type="checkbox" name="Ginastica" id="Ginastica">Ginastica
+    <input type="checkbox" name="Tenis de Mesa" id="Tenis de Mesa"> Ping-Pong <br>
+
+    <li>Sua cor predileta</li>
+    <input type="color" name="cor"> <br>
+
+    <li>Informacoes adicionais</li>
+    <textarea name="Informacoes adicionais" id="" cols="30" rows="10"></textarea>
+    
+    <li>Escoha uma senha</li>
+    <input type="password" nome="senha" id="senha" required title="A senha deve conter numero, acima de 4 numeros">
+
+
+   </ol>
+   
+   <button type="">Apagar tudo</button>
+   <button type="submit">Efetuar MATRICULA</button>
+
+</form>
+    
+</fieldset>
+</body>
+
+</html>
